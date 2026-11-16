@@ -1,0 +1,25 @@
+name: "Preklad / Übersetzung / Translation"
+description: "Nemčina alebo angličtina neznie prirodzene. / German or English sounds unnatural."
+labels: ["preklad"]
+body:
+  - type: dropdown
+    id: lang
+    attributes:
+      label: "Jazyk / Sprache / Language"
+      options: ["Deutsch", "English", "slovenčina"]
+    validations:
+      required: true
+  - type: input
+    id: key
+    attributes:
+      label: "Kľúč alebo pôvodný text / Schlüssel oder Originaltext / Key or current text"
+      placeholder: "count.prompt – „Wie viele sind es?“"
+    validations:
+      required: true
+  - type: textarea
+    id: better
+    attributes:
+      label: "Návrh / Vorschlag / Suggestion"
+      description: "Ako by to povedal učiteľ malému dieťaťu? Ak ide o regionálny variant (napr. Rakúsko), uveďte to."
+    validations:
+      required: true

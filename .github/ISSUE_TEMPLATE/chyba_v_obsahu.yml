@@ -1,0 +1,23 @@
+name: "Chyba v obsahu / Fehler im Inhalt / Content issue"
+description: "Nejasné zadanie, zlá odpoveď, obrázok nesedí… / Unclear prompt, wrong answer, mismatched picture…"
+labels: ["chyba v obsahu"]
+body:
+  - type: textarea
+    id: where
+    attributes:
+      label: "Kde / Wo / Where"
+      description: "Ostrov a úloha, prípadne kľúč textu alebo kód slova. Snímka obrazovky pomôže (bez mena a tváre dieťaťa)."
+      placeholder: "Ostrov Čísla → Koľko ich je? (úroveň 3)"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "Čo je zle a ako by to malo byť / Was ist falsch / What is wrong"
+    validations:
+      required: true
+  - type: dropdown
+    id: lang
+    attributes:
+      label: "Jazyk appky / Sprache / Language"
+      options: ["slovenčina", "Deutsch", "English"]

@@ -1,0 +1,28 @@
+name: "Nové slovo / Neues Wort / New word"
+description: "Doplňte slovo do slovnej zásoby (s prekladom do troch jazykov). / Add a word with SK/DE/EN translations."
+labels: ["slovná zásoba"]
+body:
+  - type: input
+    id: sk
+    attributes: { label: "Slovensky" }
+    validations: { required: true }
+  - type: input
+    id: de
+    attributes:
+      label: "Deutsch (mit Artikel)"
+      placeholder: "der Apfel"
+    validations: { required: true }
+  - type: input
+    id: en
+    attributes: { label: "English" }
+    validations: { required: true }
+  - type: input
+    id: cat
+    attributes:
+      label: "Kategória / Kategorie / Category"
+      placeholder: "ovocie, zvieratá, doprava, domov…"
+  - type: textarea
+    id: picture
+    attributes:
+      label: "Čo má byť na obrázku / Was soll das Bild zeigen / What should the picture show"
+      description: "Obrázky kreslíme my – stačí opis."

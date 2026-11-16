@@ -450,6 +450,28 @@
    }
   },
   {
+   "code": "write.small_letters",
+   "island": "write",
+   "active": true,
+   "mechanic": "trace",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Malé písmená",
+    "de": "Kleinbuchstaben",
+    "en": "Small letters"
+   },
+   "levels": {
+    "1": "m a i t o, plná predloha, štyri linajky",
+    "2": "+ h u e n j",
+    "3": "+ l p b y k s, bodkovaná",
+    "4": "do č, štartová bodka",
+    "5": "+ g f, dĺžne, mäkčene",
+    "6": "všetky, bez predlohy"
+   }
+  },
+  {
    "code": "math.subitize",
    "island": "numbers",
    "active": true,

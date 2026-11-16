@@ -1,0 +1,55 @@
+name: "Nová úloha alebo úroveň / Neue Aufgabe / New task"
+description: "Navrhnite novú aktivitu alebo lepšie stupňovanie náročnosti. / Suggest a new activity or better levels."
+labels: ["nová úloha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ďakujeme! Programovať nemusíte – stačí opísať nápad. Zoznam existujúcich úloh je v `docs/ULOHY.md`.
+        *Deutsch und English welcome.*
+  - type: input
+    id: skill
+    attributes:
+      label: "Zručnosť / Fertigkeit / Skill"
+      description: "Kód existujúcej zručnosti (napr. math.count) alebo „nová úloha“."
+      placeholder: "math.count / nová úloha"
+    validations:
+      required: true
+  - type: dropdown
+    id: age
+    attributes:
+      label: "Pre koho / Für wen / For whom"
+      multiple: true
+      options: ["4–5 rokov / Jahre / years", "5–6 rokov (predškoláci)", "6–7 rokov (1. ročník)", "7–8 rokov (2. ročník)"]
+    validations:
+      required: true
+  - type: checkboxes
+    id: langs
+    attributes:
+      label: "Jazyk / Sprache / Language"
+      options:
+        - label: "slovenčina"
+        - label: "Deutsch"
+        - label: "English"
+  - type: textarea
+    id: what
+    attributes:
+      label: "Čo má dieťa robiť? / Was soll das Kind tun? / What should the child do?"
+      description: "2–3 príklady so správnou odpoveďou. Zadanie appka číta nahlas."
+      placeholder: "Appka povie: „Ktoré slovo sa rýmuje so slovom MAČKA?“ Možnosti: TAČKA, LOPTA, STROM → správne TAČKA"
+    validations:
+      required: true
+  - type: textarea
+    id: levels
+    attributes:
+      label: "Ako sa stupňuje? / Wie wird es schwerer? / How does it get harder?"
+      description: "Čo je na úrovni 1 (najľahšie) a čo na najvyššej."
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: "Zásady / Grundsätze / Principles"
+      options:
+        - label: "Je to môj vlastný nápad, neprepisujem z učebnice ani pracovného zošita. / Own idea, not copied from a textbook."
+          required: true
+        - label: "Úloha dieťa učí, nie nachytá; bez časového tlaku. / Teaches, doesn't trick; no time pressure."
+          required: true

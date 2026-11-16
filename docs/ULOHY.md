@@ -20,6 +20,12 @@ draw.trace — Obťahuj obrázok.
 draw.symmetry — Dokresli druhú polovicu podľa bodiek (zrkadlo je v strede).
 1: sieť 5, 3 body · 2: 5, 4 body · 3: 7, 4 body · 4: 7, 5 bodov · 5: 7, 6 bodov · 6: 7, 7 bodov
 
+## `write.small_letters`
+
+write.small_letters — Tlačené malé písmená v štyroch linajkách (poradie ako v 1. ročníku; DE/EN vlastné poradie).
+1: prvých 5, plná predloha · 2: do 10 · 3: do 16, bodkovaná · 4: do 24, štartová bodka
+5: do 32 (dĺžne a mäkčene), štartová bodka · 6: všetky, bez predlohy
+
 ## `write.print_letters`
 
 write.print_letters — Tlačené veľké písmená v poradí 1. ročníka (vlastné predlohy ťahov).
