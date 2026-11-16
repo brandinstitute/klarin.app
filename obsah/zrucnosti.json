@@ -1,0 +1,1001 @@
+{
+ "version": 1,
+ "islands": {
+  "numbers": {
+   "sk": "Čísla",
+   "de": "Zahlen",
+   "en": "Numbers"
+  },
+  "logic": {
+   "sk": "Logika",
+   "de": "Logik",
+   "en": "Logic"
+  },
+  "fill": {
+   "sk": "Dopĺňanie",
+   "de": "Ergänzen",
+   "en": "Fill in"
+  },
+  "draw": {
+   "sk": "Kreslenie",
+   "de": "Zeichnen",
+   "en": "Drawing"
+  },
+  "write": {
+   "sk": "Písanie",
+   "de": "Schreiben",
+   "en": "Writing"
+  },
+  "paths": {
+   "sk": "Cesty",
+   "de": "Wege",
+   "en": "Paths"
+  },
+  "space": {
+   "sk": "Priestor",
+   "de": "Raum",
+   "en": "Space"
+  },
+  "words": {
+   "sk": "Slová",
+   "de": "Wörter",
+   "en": "Words"
+  },
+  "read": {
+   "sk": "Čítanie",
+   "de": "Lesen",
+   "en": "Reading"
+  },
+  "speak": {
+   "sk": "Rozprávanie",
+   "de": "Sprechen",
+   "en": "Speaking"
+  }
+ },
+ "skills": [
+  {
+   "code": "math.count",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Počítanie",
+    "de": "Zählen",
+    "en": "Counting"
+   },
+   "levels": {
+    "1": "počet 1–3",
+    "2": "počet 1–5",
+    "3": "počet 1–7",
+    "4": "počet 1–10",
+    "5": "počet do 15",
+    "6": "počet do 20"
+   }
+  },
+  {
+   "code": "logic.odd_category",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Čo sem nepatrí",
+    "de": "Was passt nicht?",
+    "en": "Odd one out"
+   },
+   "levels": {
+    "1": "3 obrázky, vzdialené skupiny",
+    "2": "4 obrázky, vzdialené skupiny",
+    "3": "4 obrázky, blízke skupiny (ovocie/zelenina)",
+    "4": "5 obrázkov, blízke skupiny",
+    "5": "6 obrázkov, blízke skupiny",
+    "6": "6 obrázkov, nadradené pojmy"
+   }
+  },
+  {
+   "code": "logic.odd_shape",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Iný tvar",
+    "de": "Andere Form",
+    "en": "Different shape"
+   },
+   "levels": {
+    "1": "3 tvary, iný tvar",
+    "2": "3 tvary, iná farba",
+    "3": "4 tvary, jeden znak iný",
+    "4": "4 tvary, rôzne farby, iný tvar",
+    "5": "5 tvarov, rôzne farby a veľkosti, iný tvar",
+    "6": "5 tvarov, iná veľkosť"
+   }
+  },
+  {
+   "code": "vocab.find_word",
+   "island": "words",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Nájdi slovo",
+    "de": "Finde das Wort",
+    "en": "Find the word"
+   },
+   "levels": {
+    "1": "2 obrázky",
+    "2": "3 obrázky",
+    "3": "4 obrázky",
+    "4": "4 obrázky z jednej skupiny",
+    "5": "6 obrázkov z jednej skupiny",
+    "6": "6 obrázkov, ťažšie slová"
+   }
+  },
+  {
+   "code": "logic.same",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Rovnaké",
+    "de": "Gleich",
+    "en": "Same"
+   },
+   "levels": {
+    "1": "obrázok medzi 3",
+    "2": "tvar medzi 3 tvarmi",
+    "3": "4 tvary, iný tvar alebo farba",
+    "4": "4 tvary, aj veľkosť",
+    "5": "dvojica tvarov, záleží na poradí",
+    "6": "trojica tvarov"
+   }
+  },
+  {
+   "code": "fill.sequence",
+   "island": "fill",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Čo príde ďalej",
+    "de": "Was kommt als Nächstes?",
+    "en": "What comes next"
+   },
+   "levels": {
+    "1": "AB AB – farby",
+    "2": "AB – tvary",
+    "3": "AAB",
+    "4": "ABC",
+    "5": "ABB / AABB",
+    "6": "číselný rad +1, +2, −1, +10"
+   }
+  },
+  {
+   "code": "fill.routine",
+   "island": "fill",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Čo príde potom (deň)",
+    "de": "Was kommt danach (Tagesablauf)",
+    "en": "What comes next (daily routine)"
+   },
+   "levels": {
+    "1": "2 kroky, vyber z 2",
+    "2": "2 kroky, vyber z 2",
+    "3": "3 kroky, vyber z 3",
+    "4": "3 kroky, vyber z 3",
+    "5": "chýba krok v strede",
+    "6": "chýba krok v strede"
+   }
+  },
+  {
+   "code": "fill.matrix",
+   "island": "fill",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Doplň okienko",
+    "de": "Ergänze das Feld",
+    "en": "Complete the grid"
+   },
+   "levels": {
+    "1": "2×2, chýba posledné",
+    "2": "2×2, chýba ktorékoľvek",
+    "3": "3×3 tvar × farba",
+    "4": "3×3 tvar × farba",
+    "5": "3×3 tvar × veľkosť a farba",
+    "6": "3×3 tvar × veľkosť a farba"
+   }
+  },
+  {
+   "code": "math.add_sub",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Sčítanie a odčítanie",
+    "de": "Plus und Minus",
+    "en": "Adding and subtracting"
+   },
+   "levels": {
+    "1": "+ do 5 s obrázkami",
+    "2": "+ a − do 5 s obrázkami",
+    "3": "+ a − do 10 s obrázkami",
+    "4": "+ a − do 10 číslami",
+    "5": "do 20 bez prechodu cez 10",
+    "6": "do 20 s prechodom cez 10"
+   }
+  },
+  {
+   "code": "math.number_line",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Číselná cesta",
+    "de": "Zahlenweg",
+    "en": "Number path"
+   },
+   "levels": {
+    "1": "1–5",
+    "2": "okno 5 čísel do 10",
+    "3": "okno 6 čísel do 20",
+    "4": "dve chýbajúce",
+    "5": "odzadu",
+    "6": "po 2 a po 10 do 100"
+   }
+  },
+  {
+   "code": "paths.maze",
+   "island": "paths",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Bludisko",
+    "de": "Labyrinth",
+    "en": "Maze"
+   },
+   "levels": {
+    "1": "2 cesty",
+    "2": "3 cesty",
+    "3": "3 cesty, viac ohybov",
+    "4": "4 cesty",
+    "5": "4 cesty, viac ohybov",
+    "6": "5 ciest"
+   }
+  },
+  {
+   "code": "paths.arrows",
+   "island": "paths",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Šípky",
+    "de": "Pfeile",
+    "en": "Arrows"
+   },
+   "levels": {
+    "1": "3×3, 2 kroky",
+    "2": "3×3, 3 kroky",
+    "3": "4×4, 3 kroky",
+    "4": "4×4, 4 kroky",
+    "5": "5×5, 5 krokov",
+    "6": "5×5, 6 krokov"
+   }
+  },
+  {
+   "code": "space.prepositions",
+   "island": "space",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Pod, nad, vedľa",
+    "de": "Unter, über, neben",
+    "en": "Under, over, next to"
+   },
+   "levels": {
+    "1": "na / pod",
+    "2": "+ v",
+    "3": "+ vedľa",
+    "4": "+ nad",
+    "5": "+ za",
+    "6": "na a nad spolu"
+   }
+  },
+  {
+   "code": "space.left_right",
+   "island": "space",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Vľavo a vpravo",
+    "de": "Links und rechts",
+    "en": "Left and right"
+   },
+   "levels": {
+    "1": "vľavo z 2",
+    "2": "vľavo / vpravo z 2",
+    "3": "úplne vľavo / vpravo z 3",
+    "4": "z 4",
+    "5": "vľavo / vpravo od slova",
+    "6": "druhý zľava / sprava"
+   }
+  },
+  {
+   "code": "draw.trace",
+   "island": "draw",
+   "active": true,
+   "mechanic": "trace",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Obťahovanie",
+    "de": "Nachspuren",
+    "en": "Tracing"
+   },
+   "levels": {
+    "1": "kruh, štvorec",
+    "2": "+ trojuholník",
+    "3": "srdce, domček, bodkovaná predloha",
+    "4": "hviezda, slnko",
+    "5": "ryba, oblak",
+    "6": "kvet"
+   }
+  },
+  {
+   "code": "draw.symmetry",
+   "island": "draw",
+   "active": true,
+   "mechanic": "trace",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Dokresli polovicu",
+    "de": "Spiegelbild",
+    "en": "Symmetry"
+   },
+   "levels": {
+    "1": "sieť 5, 3 body",
+    "2": "sieť 5, 4 body",
+    "3": "sieť 7, 4 body",
+    "4": "sieť 7, 5 bodov",
+    "5": "sieť 7, 6 bodov",
+    "6": "sieť 7, 7 bodov"
+   }
+  },
+  {
+   "code": "write.elements",
+   "island": "write",
+   "active": true,
+   "mechanic": "trace",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Čiary a oblúky",
+    "de": "Linien und Bögen",
+    "en": "Lines and curves"
+   },
+   "levels": {
+    "1": "zvislé, vodorovné, plná predloha",
+    "2": "šikmé, cik-cak",
+    "3": "vlnovka, girlanda, bodkovaná",
+    "4": "arkáda, ovály, meander",
+    "5": "slučky, esá, štartová bodka",
+    "6": "špirála, liniatúra"
+   }
+  },
+  {
+   "code": "write.print_letters",
+   "island": "write",
+   "active": true,
+   "mechanic": "trace",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Tlačené písmená",
+    "de": "Druckbuchstaben",
+    "en": "Print letters"
+   },
+   "levels": {
+    "1": "A E I Y, plná predloha",
+    "2": "+ O U T P",
+    "3": "+ J B K Č, bodkovaná",
+    "4": "do N, štartová bodka",
+    "5": "do Š, liniatúra",
+    "6": "všetky, bez predlohy"
+   }
+  },
+  {
+   "code": "math.subitize",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Ukáž počet",
+    "de": "Wie viele Punkte?",
+    "en": "Show the number"
+   },
+   "levels": {
+    "1": "skupina 1–3 → kocka",
+    "2": "1–4",
+    "3": "1–5",
+    "4": "číslica 1–5 → kocka",
+    "5": "číslica 1–6",
+    "6": "číslica do 10, rámček desiatky"
+   }
+  },
+  {
+   "code": "math.compare",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Viac a menej",
+    "de": "Mehr und weniger",
+    "en": "More and less"
+   },
+   "levels": {
+    "1": "2 skupiny, rozdiel 3",
+    "2": "rozdiel 2",
+    "3": "rozdiel 1, aj menej",
+    "4": "3 skupiny do 10",
+    "5": "3 skupiny, rôzne predmety",
+    "6": "väčšie / menšie číslo do 20"
+   }
+  },
+  {
+   "code": "vocab.colors",
+   "island": "words",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Farby",
+    "de": "Farben",
+    "en": "Colours"
+   },
+   "levels": {
+    "1": "2 základné",
+    "2": "3 základné",
+    "3": "+ oranžová, fialová",
+    "4": "+ ružová, hnedá",
+    "5": "5 zo všetkých",
+    "6": "6 zo všetkých, rôzne tvary"
+   }
+  },
+  {
+   "code": "read.first_sound",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Prvá hláska",
+    "de": "Anlaut",
+    "en": "First sound"
+   },
+   "levels": {
+    "1": "M A H I",
+    "2": "+ J O T",
+    "3": "+ E B U",
+    "4": "+ L S",
+    "5": "+ N P K, malé písmená",
+    "6": "+ V R Z Š D C Ž"
+   }
+  },
+  {
+   "code": "read.syllable",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Slabiky",
+    "de": "Silben",
+    "en": "Syllables"
+   },
+   "levels": {
+    "1": "M A: MA – MÁ",
+    "2": "+ H I, veľké aj malé",
+    "3": "+ J O T",
+    "4": "+ E B U L, blízke slabiky",
+    "5": "+ S Y N P K",
+    "6": "+ ďalšie písmená 1. ročníka"
+   }
+  },
+  {
+   "code": "read.hear",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Ktoré slovo počuješ?",
+    "de": "Welches Wort hörst du?",
+    "en": "Which word do you hear?"
+   },
+   "levels": {
+    "1": "slová z písmen M A H I J O T (2 možnosti)",
+    "2": "+ E B, 3 možnosti",
+    "3": "+ U L",
+    "4": "krátke vety z príručky (2)",
+    "5": "vety, 3 možnosti",
+    "6": "vety s písmenami 1. ročníka"
+   }
+  },
+  {
+   "code": "read.listen",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Počúvaj príbeh",
+    "de": "Hör die Geschichte",
+    "en": "Listen to the story"
+   },
+   "levels": {
+    "1": "krátky príbeh, otázka Áno/Nie",
+    "2": "krátky príbeh, otázka Áno/Nie",
+    "3": "stredný príbeh (výlet)",
+    "4": "stredný príbeh (výlet)",
+    "5": "dlhý príbeh (hrad)",
+    "6": "dlhý príbeh (Tatry)"
+   }
+  },
+  {
+   "code": "read.syllables",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Koľko slabík",
+    "de": "Silben klatschen",
+    "en": "Syllables"
+   },
+   "levels": {
+    "1": "1–2 slabiky, 2 možnosti",
+    "2": "1–2 slabiky, 2 možnosti",
+    "3": "do 3 slabík, 3 možnosti",
+    "4": "do 3 slabík, 3 možnosti",
+    "5": "do 4 slabík, 4 možnosti",
+    "6": "do 4 slabík, 4 možnosti"
+   },
+   "langs": [
+    "sk",
+    "de",
+    "en"
+   ]
+  },
+  {
+   "code": "read.rhyme",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Rýmujú sa?",
+    "de": "Reimt sich das?",
+    "en": "Does it rhyme?"
+   },
+   "levels": {
+    "1": "jednoslabičné slová",
+    "2": "jednoslabičné slová",
+    "3": "dvojslabičné",
+    "4": "dvojslabičné",
+    "5": "aj podobné, čo sa nerýmujú",
+    "6": "aj podobné, čo sa nerýmujú"
+   }
+  },
+  {
+   "code": "read.missing_letter",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Ktoré písmeno chýba",
+    "de": "Welcher Buchstabe fehlt?",
+    "en": "Which letter is missing"
+   },
+   "levels": {
+    "1": "posledné písmeno, 2 možnosti",
+    "2": "posledné písmeno, 2 možnosti",
+    "3": "písmeno v strede, 3 možnosti",
+    "4": "písmeno v strede, 3 možnosti",
+    "5": "hocikde, aj dĺžne a mäkčene, 4 možnosti",
+    "6": "hocikde, 4 možnosti"
+   }
+  },
+  {
+   "code": "read.last_sound",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Posledná hláska",
+    "de": "Der letzte Laut",
+    "en": "Last sound"
+   },
+   "levels": {
+    "1": "samohláska na konci, 2 možnosti",
+    "2": "samohláska na konci, 2 možnosti",
+    "3": "aj spoluhlásky, 3 možnosti",
+    "4": "aj spoluhlásky, 3 možnosti",
+    "5": "4 možnosti",
+    "6": "4 možnosti"
+   },
+   "langs": [
+    "sk",
+    "de"
+   ]
+  },
+  {
+   "code": "read.letter_count",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Koľko písmen má slovo",
+    "de": "Wie viele Buchstaben?",
+    "en": "How many letters?"
+   },
+   "levels": {
+    "1": "do 4 písmen",
+    "2": "do 4 písmen",
+    "3": "do 6 písmen",
+    "4": "do 6 písmen",
+    "5": "do 8 písmen",
+    "6": "do 8 písmen"
+   }
+  },
+  {
+   "code": "read.true_false",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Je to pravda?",
+    "de": "Stimmt das?",
+    "en": "Is it true?"
+   },
+   "levels": {
+    "1": "iná vec (pes – jablko)",
+    "2": "iná vec (pes – jablko)",
+    "3": "podobná vec (pes – mačka)",
+    "4": "podobná vec",
+    "5": "podobná vec",
+    "6": "podobná vec"
+   }
+  },
+  {
+   "code": "read.letter_case",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Veľké a malé písmeno",
+    "de": "Groß und klein",
+    "en": "Big and small letters"
+   },
+   "levels": {
+    "1": "veľké → malé, 2 možnosti",
+    "2": "veľké → malé, 2 možnosti",
+    "3": "oboma smermi, 3 možnosti",
+    "4": "oboma smermi, 3 možnosti",
+    "5": "b d p, m n…, aj s mäkčeňom, 4 možnosti",
+    "6": "4 možnosti"
+   }
+  },
+  {
+   "code": "read.clap",
+   "island": "read",
+   "active": true,
+   "mechanic": "clap",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Vytlieskaj slovo",
+    "de": "Silben klatschen",
+    "en": "Clap the word"
+   },
+   "levels": {
+    "1": "1–2 slabiky",
+    "2": "1–2 slabiky",
+    "3": "do 3 slabík",
+    "4": "do 3 slabík",
+    "5": "do 4 slabík, prednostne dlhé slová",
+    "6": "do 4 slabík, prednostne dlhé slová"
+   }
+  },
+  {
+   "code": "read.split",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Rozdeľ na slabiky",
+    "de": "Silben trennen",
+    "en": "Split into syllables"
+   },
+   "levels": {
+    "1": "2 slabiky, 2 možnosti",
+    "2": "2 slabiky, 2 možnosti",
+    "3": "do 3 slabík, 3 možnosti",
+    "4": "do 3 slabík, 3 možnosti",
+    "5": "do 4 slabík, 4 možnosti",
+    "6": "do 4 slabík, 4 možnosti"
+   },
+   "langs": [
+    "sk",
+    "de"
+   ]
+  },
+  {
+   "code": "read.compose",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Zlož slovo zo slabík",
+    "de": "Silben zusammensetzen",
+    "en": "Put syllables together"
+   },
+   "levels": {
+    "1": "2 obrázky",
+    "2": "2 obrázky",
+    "3": "3 obrázky",
+    "4": "3 obrázky",
+    "5": "4 obrázky, podobný začiatok",
+    "6": "4 obrázky, podobný začiatok"
+   },
+   "langs": [
+    "sk",
+    "de"
+   ]
+  },
+  {
+   "code": "read.build",
+   "island": "read",
+   "active": true,
+   "mechanic": "order",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Poskladaj slovo z písmen",
+    "de": "Wort aus Buchstaben bauen",
+    "en": "Build the word"
+   },
+   "levels": {
+    "1": "3 písmená",
+    "2": "3 písmená",
+    "3": "do 5 písmen, 1 navyše",
+    "4": "do 5 písmen, 1 navyše",
+    "5": "do 7 písmen, 2 navyše",
+    "6": "do 7 písmen, 2 navyše"
+   }
+  },
+  {
+   "code": "read.word_picture",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Prečítaj slovo",
+    "de": "Lies das Wort",
+    "en": "Read the word"
+   },
+   "levels": {
+    "1": "po celom 1. diele (M A H I J O T E B U L S Y N P K), 2 obrázky",
+    "2": "3 obrázky",
+    "3": "+ V R",
+    "4": "+ Z Š D, 4 obrázky",
+    "5": "+ C Ž Č",
+    "6": "všetky písmená, rovnaká skupina"
+   }
+  },
+  {
+   "code": "sp.article",
+   "island": "speak",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Ten, tá, to – farby",
+    "de": "Der, die, das",
+    "en": "A or an"
+   },
+   "levels": {
+    "1": "jedlo",
+    "2": "+ zvieratá",
+    "3": "+ oblečenie, hračky",
+    "4": "všetky slová",
+    "5": "všetky slová",
+    "6": "všetky slová"
+   }
+  },
+  {
+   "code": "sp.monster",
+   "island": "speak",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Opíš strašidielko",
+    "de": "Ich beschreibe das Monster",
+    "en": "Describe the monster"
+   },
+   "levels": {
+    "1": "1 veta, 2 monštrá (farba)",
+    "2": "3 monštrá, farba alebo počet",
+    "3": "3 monštrá",
+    "4": "2 vety",
+    "5": "2 vety",
+    "6": "2 vety"
+   }
+  },
+  {
+   "code": "sp.verb",
+   "island": "speak",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Slovesá po osobách",
+    "de": "Verben: ich, du, er …",
+    "en": "Verbs: I, you, he …"
+   },
+   "levels": {
+    "1": "ich, du, er",
+    "2": "+ sie, es",
+    "3": "všetky osoby, 3 tvary",
+    "4": "4 tvary",
+    "5": "4 tvary",
+    "6": "4 tvary"
+   }
+  },
+  {
+   "code": "sp.because",
+   "island": "speak",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Prečo? (lebo)",
+    "de": "Warum? (weil)",
+    "en": "Why? (because)"
+   },
+   "levels": {
+    "1": "2 možnosti",
+    "2": "2 možnosti",
+    "3": "3 možnosti",
+    "4": "3 možnosti",
+    "5": "3 možnosti",
+    "6": "3 možnosti"
+   }
+  },
+  {
+   "code": "sp.akk",
+   "island": "speak",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Akuzatív (nemčina)",
+    "de": "einen, eine, ein – den, die, das",
+    "en": "Accusative (German)"
+   },
+   "levels": {
+    "1": "Ich sehe einen/eine/ein, školské veci",
+    "2": "Ich sehe einen/eine/ein, školské veci",
+    "3": "Zeig auf den/die/das",
+    "4": "Zeig auf den/die/das",
+    "5": "oboje, všetky slová",
+    "6": "oboje, všetky slová"
+   },
+   "langs": [
+    "de"
+   ]
+  }
+ ]
+}

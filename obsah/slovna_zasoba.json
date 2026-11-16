@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "license_images": "Twemoji (c) Twitter/X & contributors, CC BY 4.0",
+ "words": [
+  {
+   "code": "apple",
+   "image": "assets/images/words/apple.svg",
+   "category": "fruit",
+   "level": 1,
+   "sk": "jablko",
+   "de": "Apfel",
+   "de_article": "der",
+   "en": "apple"
+  },
+  {
+   "code": "banana",
+   "image": "assets/images/words/banana.svg",
+   "category": "fruit",
+   "level": 1,
+   "sk": "banán",
+   "de": "Banane",
+   "de_article": "die",
+   "en": "banana"
+  },
+  {
+   "code": "pear",
+   "image": "assets/images/words/pear.svg",
+   "category": "fruit",
+   "level": 2,
+   "sk": "hruška",
+   "de": "Birne",
+   "de_article": "die",
+   "en": "pear"
+  },
+  {
+   "code": "grapes",
+   "image": "assets/images/words/grapes.svg",
+   "category": "fruit",
+   "level": 3,
+   "sk": "hrozno",
+   "de": "Trauben",
+   "de_article": "die",
+   "en": "grapes"
+  },
+  {
+   "code": "strawberry",
+   "image": "assets/images/words/strawberry.svg",
+   "category": "fruit",
+   "level": 2,
+   "sk": "jahoda",
+   "de": "Erdbeere",
+   "de_article": "die",
+   "en": "strawberry"
+  },
+  {
+   "code": "cherries",
+   "image": "assets/images/words/cherries.svg",
+   "category": "fruit",
+   "level": 3,
+   "sk": "čerešne",
+   "de": "Kirschen",
+   "de_article": "die",
+   "en": "cherries"
+  },
+  {
+   "code": "orange",
+   "image": "assets/images/words/orange.svg",
+   "category": "fruit",
+   "level": 3,
+   "sk": "mandarínka",
+   "de": "Mandarine",
+   "de_article": "die",
+   "en": "tangerine"
+  },
+  {
+   "code": "watermelon",
+   "image": "assets/images/words/watermelon.svg",
+   "category": "fruit",
+   "level": 2,
+   "sk": "melón",
+   "de": "Wassermelone",
+   "de_article": "die",
+   "en": "watermelon"
+  },
+  {
+   "code": "carrot",
+   "image": "assets/images/words/carrot.svg",
+   "category": "vegetable",
+   "level": 1,
+   "sk": "mrkva",
+   "de": "Karotte",
+   "de_article": "die",
+   "en": "carrot"
+  },
+  {
+   "code": "tomato",
+   "image": "assets/images/words/tomato.svg",
+   "category": "vegetable",
+   "level": 2,
+   "sk": "paradajka",
+   "de": "Tomate",
+   "de_article": "die",
+   "en": "tomato"
+  },
+  {
+   "code": "cucumber",
+   "image": "assets/images/words/cucumber.svg",
+   "category": "vegetable",
+   "level": 3,
+   "sk": "uhorka",
+   "de": "Gurke",
+   "de_article": "die",
+   "en": "cucumber"
+  },
+  {
+   "code": "broccoli",
+   "image": "assets/images/words/broccoli.svg",
+   "category": "vegetable",
+   "level": 4,
+   "sk": "brokolica",
+   "de": "Brokkoli",
+   "de_article": "der",
+   "en": "broccoli"
+  },
+  {
+   "code": "corn",
+   "image": "assets/images/words/corn.svg",
+   "category": "vegetable",
+   "level": 3,
+   "sk": "kukurica",
+   "de": "Mais",
+   "de_article": "der",
+   "en": "corn"
+  },
+  {
+   "code": "potato",
+   "image": "assets/images/words/potato.svg",
+   "category": "vegetable",
+   "level": 3,
+   "sk": "zemiak",
+   "de": "Kartoffel",
+   "de_article": "die",
+   "en": "potato"
+  },
+  {
+   "code": "dog",
+   "image": "assets/images/words/dog.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "pes",
+   "de": "Hund",
+   "de_article": "der",
+   "en": "dog"
+  },
+  {
+   "code": "cat",
+   "image": "assets/images/words/cat.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "mačka",
+   "de": "Katze",
+   "de_article": "die",
+   "en": "cat"
+  },
+  {
+   "code": "cow",
+   "image": "assets/images/words/cow.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "krava",
+   "de": "Kuh",
+   "de_article": "die",
+   "en": "cow"
+  },
+  {
+   "code": "pig",
+   "image": "assets/images/words/pig.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "prasiatko",
+   "de": "Schwein",
+   "de_article": "das",
+   "en": "pig"
+  },
+  {
+   "code": "horse",
+   "image": "assets/images/words/horse.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "kôň",
+   "de": "Pferd",
+   "de_article": "das",
+   "en": "horse"
+  },
+  {
+   "code": "rabbit",
+   "image": "assets/images/words/rabbit.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "zajac",
+   "de": "Hase",
+   "de_article": "der",
+   "en": "rabbit"
+  },
+  {
+   "code": "chicken",
+   "image": "assets/images/words/chicken.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "sliepka",
+   "de": "Huhn",
+   "de_article": "das",
+   "en": "chicken"
+  },
+  {
+   "code": "sheep",
+   "image": "assets/images/words/sheep.svg",
+   "category": "animal",
+   "level": 3,
+   "sk": "ovca",
+   "de": "Schaf",
+   "de_article": "das",
+   "en": "sheep"
+  },
+  {
+   "code": "mouse",
+   "image": "assets/images/words/mouse.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "myš",
+   "de": "Maus",
+   "de_article": "die",
+   "en": "mouse"
+  },
+  {
+   "code": "duck",
+   "image": "assets/images/words/duck.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "kačka",
+   "de": "Ente",
+   "de_article": "die",
+   "en": "duck"
+  },
+  {
+   "code": "fish",
+   "image": "assets/images/words/fish.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "ryba",
+   "de": "Fisch",
+   "de_article": "der",
+   "en": "fish"
+  },
+  {
+   "code": "frog",
+   "image": "assets/images/words/frog.svg",
+   "category": "animal",
+   "level": 3,
+   "sk": "žaba",
+   "de": "Frosch",
+   "de_article": "der",
+   "en": "frog"
+  },
+  {
+   "code": "car",
+   "image": "assets/images/words/car.svg",
+   "category": "vehicle",
+   "level": 1,
+   "sk": "auto",
+   "de": "Auto",
+   "de_article": "das",
+   "en": "car"
+  },
+  {
+   "code": "bus",
+   "image": "assets/images/words/bus.svg",
+   "category": "vehicle",
+   "level": 1,
+   "sk": "autobus",
+   "de": "Bus",
+   "de_article": "der",
+   "en": "bus"
+  },
+  {
+   "code": "bicycle",
+   "image": "assets/images/words/bicycle.svg",
+   "category": "vehicle",
+   "level": 2,
+   "sk": "bicykel",
+   "de": "Fahrrad",
+   "de_article": "das",
+   "en": "bicycle"
+  },
+  {
+   "code": "train",
+   "image": "assets/images/words/train.svg",
+   "category": "vehicle",
+   "level": 2,
+   "sk": "vlak",
+   "de": "Zug",
+   "de_article": "der",
+   "en": "train"
+  },
+  {
+   "code": "airplane",
+   "image": "assets/images/words/airplane.svg",
+   "category": "vehicle",
+   "level": 2,
+   "sk": "lietadlo",
+   "de": "Flugzeug",
+   "de_article": "das",
+   "en": "airplane"
+  },
+  {
+   "code": "boat",
+   "image": "assets/images/words/boat.svg",
+   "category": "vehicle",
+   "level": 2,
+   "sk": "loďka",
+   "de": "Boot",
+   "de_article": "das",
+   "en": "boat"
+  },
+  {
+   "code": "tractor",
+   "image": "assets/images/words/tractor.svg",
+   "category": "vehicle",
+   "level": 3,
+   "sk": "traktor",
+   "de": "Traktor",
+   "de_article": "der",
+   "en": "tractor"
+  },
+  {
+   "code": "rocket",
+   "image": "assets/images/words/rocket.svg",
+   "category": "vehicle",
+   "level": 3,
+   "sk": "raketa",
+   "de": "Rakete",
+   "de_article": "die",
+   "en": "rocket"
+  },
+  {
+   "code": "tshirt",
+   "image": "assets/images/words/tshirt.svg",
+   "category": "clothing",
+   "level": 2,
+   "sk": "tričko",
+   "de": "T-Shirt",
+   "de_article": "das",
+   "en": "T-shirt"
+  },
+  {
+   "code": "dress",
+   "image": "assets/images/words/dress.svg",
+   "category": "clothing",
+   "level": 2,
+   "sk": "šaty",
+   "de": "Kleid",
+   "de_article": "das",
+   "en": "dress"
+  },
+  {
+   "code": "socks",
+   "image": "assets/images/words/socks.svg",
+   "category": "clothing",
+   "level": 2,
+   "sk": "ponožky",
+   "de": "Socken",
+   "de_article": "die",
+   "en": "socks"
+  },
+  {
+   "code": "cap",
+   "image": "assets/images/words/cap.svg",
+   "category": "clothing",
+   "level": 3,
+   "sk": "šiltovka",
+   "de": "Kappe",
+   "de_article": "die",
+   "en": "cap"
+  },
+  {
+   "code": "shoe",
+   "image": "assets/images/words/shoe.svg",
+   "category": "clothing",
+   "level": 1,
+   "sk": "topánka",
+   "de": "Schuh",
+   "de_article": "der",
+   "en": "shoe"
+  },
+  {
+   "code": "gloves",
+   "image": "assets/images/words/gloves.svg",
+   "category": "clothing",
+   "level": 3,
+   "sk": "rukavice",
+   "de": "Handschuhe",
+   "de_article": "die",
+   "en": "gloves"
+  },
+  {
+   "code": "scarf",
+   "image": "assets/images/words/scarf.svg",
+   "category": "clothing",
+   "level": 3,
+   "sk": "šál",
+   "de": "Schal",
+   "de_article": "der",
+   "en": "scarf"
+  },
+  {
+   "code": "cookie",
+   "image": "assets/images/words/cookie.svg",
+   "category": "treat",
+   "level": 2,
+   "sk": "keks",
+   "de": "Keks",
+   "de_article": "der",
+   "en": "cookie"
+  },
+  {
+   "code": "cake",
+   "image": "assets/images/words/cake.svg",
+   "category": "treat",
+   "level": 2,
+   "sk": "koláč",
+   "de": "Kuchen",
+   "de_article": "der",
+   "en": "cake"
+  },
+  {
+   "code": "icecream",
+   "image": "assets/images/words/icecream.svg",
+   "category": "treat",
+   "level": 1,
+   "sk": "zmrzlina",
+   "de": "Eis",
+   "de_article": "das",
+   "en": "ice cream"
+  },
+  {
+   "code": "ball",
+   "image": "assets/images/words/ball.svg",
+   "category": "toy",
+   "level": 1,
+   "sk": "lopta",
+   "de": "Ball",
+   "de_article": "der",
+   "en": "ball"
+  },
+  {
+   "code": "teddy",
+   "image": "assets/images/words/teddy.svg",
+   "category": "toy",
+   "level": 1,
+   "sk": "macko",
+   "de": "Teddybär",
+   "de_article": "der",
+   "en": "teddy bear"
+  },
+  {
+   "code": "balloon",
+   "image": "assets/images/words/balloon.svg",
+   "category": "toy",
+   "level": 2,
+   "sk": "balón",
+   "de": "Luftballon",
+   "de_article": "der",
+   "en": "balloon"
+  },
+  {
+   "code": "gift",
+   "image": "assets/images/words/gift.svg",
+   "category": "toy",
+   "level": 2,
+   "sk": "darček",
+   "de": "Geschenk",
+   "de_article": "das",
+   "en": "present"
+  },
+  {
+   "code": "star",
+   "image": "assets/images/words/star.svg",
+   "category": "thing",
+   "level": 1,
+   "sk": "hviezda",
+   "de": "Stern",
+   "de_article": "der",
+   "en": "star"
+  },
+  {
+   "code": "crown",
+   "image": "assets/images/words/crown.svg",
+   "category": "thing",
+   "level": 3,
+   "sk": "koruna",
+   "de": "Krone",
+   "de_article": "die",
+   "en": "crown"
+  },
+  {
+   "code": "ribbon",
+   "image": "assets/images/words/ribbon.svg",
+   "category": "thing",
+   "level": 3,
+   "sk": "mašľa",
+   "de": "Schleife",
+   "de_article": "die",
+   "en": "bow"
+  },
+  {
+   "code": "glasses",
+   "image": "assets/images/words/glasses.svg",
+   "category": "thing",
+   "level": 3,
+   "sk": "okuliare",
+   "de": "Brille",
+   "de_article": "die",
+   "en": "glasses"
+  },
+  {
+   "code": "flower",
+   "image": "assets/images/words/flower.svg",
+   "category": "nature",
+   "level": 1,
+   "sk": "kvet",
+   "de": "Blume",
+   "de_article": "die",
+   "en": "flower"
+  },
+  {
+   "code": "plant",
+   "image": "assets/images/words/plant.svg",
+   "category": "nature",
+   "level": 3,
+   "sk": "rastlina",
+   "de": "Pflanze",
+   "de_article": "die",
+   "en": "plant"
+  },
+  {
+   "code": "tree",
+   "image": "assets/images/words/tree.svg",
+   "category": "nature",
+   "level": 1,
+   "sk": "strom",
+   "de": "Baum",
+   "de_article": "der",
+   "en": "tree"
+  },
+  {
+   "code": "sun",
+   "image": "assets/images/words/sun.svg",
+   "category": "nature",
+   "level": 1,
+   "sk": "slnko",
+   "de": "Sonne",
+   "de_article": "die",
+   "en": "sun"
+  },
+  {
+   "code": "moon",
+   "image": "assets/images/words/moon.svg",
+   "category": "nature",
+   "level": 2,
+   "sk": "mesiac",
+   "de": "Mond",
+   "de_article": "der",
+   "en": "moon"
+  },
+  {
+   "code": "house",
+   "image": "assets/images/words/house.svg",
+   "category": "home",
+   "level": 1,
+   "sk": "dom",
+   "de": "Haus",
+   "de_article": "das",
+   "en": "house"
+  },
+  {
+   "code": "chair",
+   "image": "assets/images/words/chair.svg",
+   "category": "home",
+   "level": 2,
+   "sk": "stolička",
+   "de": "Stuhl",
+   "de_article": "der",
+   "en": "chair"
+  },
+  {
+   "code": "bed",
+   "image": "assets/images/words/bed.svg",
+   "category": "home",
+   "level": 2,
+   "sk": "posteľ",
+   "de": "Bett",
+   "de_article": "das",
+   "en": "bed"
+  },
+  {
+   "code": "hand",
+   "image": "assets/images/words/hand.svg",
+   "category": "body",
+   "level": 1,
+   "sk": "ruka",
+   "de": "Hand",
+   "de_article": "die",
+   "en": "hand"
+  },
+  {
+   "code": "leg",
+   "image": "assets/images/words/leg.svg",
+   "category": "body",
+   "level": 1,
+   "sk": "noha",
+   "de": "Bein",
+   "de_article": "das",
+   "en": "leg"
+  },
+  {
+   "code": "foot",
+   "image": "assets/images/words/foot.svg",
+   "category": "body",
+   "level": 2,
+   "sk": "chodidlo",
+   "de": "Fuß",
+   "de_article": "der",
+   "en": "foot"
+  },
+  {
+   "code": "ear",
+   "image": "assets/images/words/ear.svg",
+   "category": "body",
+   "level": 1,
+   "sk": "ucho",
+   "de": "Ohr",
+   "de_article": "das",
+   "en": "ear"
+  },
+  {
+   "code": "nose",
+   "image": "assets/images/words/nose.svg",
+   "category": "body",
+   "level": 1,
+   "sk": "nos",
+   "de": "Nase",
+   "de_article": "die",
+   "en": "nose"
+  },
+  {
+   "code": "eye",
+   "image": "assets/images/words/eye.svg",
+   "category": "body",
+   "level": 1,
+   "sk": "oko",
+   "de": "Auge",
+   "de_article": "das",
+   "en": "eye"
+  },
+  {
+   "code": "mouth",
+   "image": "assets/images/words/mouth.svg",
+   "category": "body",
+   "level": 1,
+   "sk": "ústa",
+   "de": "Mund",
+   "de_article": "der",
+   "en": "mouth"
+  },
+  {
+   "code": "tooth",
+   "image": "assets/images/words/tooth.svg",
+   "category": "body",
+   "level": 2,
+   "sk": "zub",
+   "de": "Zahn",
+   "de_article": "der",
+   "en": "tooth"
+  },
+  {
+   "code": "tongue",
+   "image": "assets/images/words/tongue.svg",
+   "category": "body",
+   "level": 2,
+   "sk": "jazyk",
+   "de": "Zunge",
+   "de_article": "die",
+   "en": "tongue"
+  },
+  {
+   "code": "arm",
+   "image": "assets/images/words/arm.svg",
+   "category": "body",
+   "level": 2,
+   "sk": "rameno",
+   "de": "Arm",
+   "de_article": "der",
+   "en": "arm"
+  },
+  {
+   "code": "toothbrush",
+   "image": "assets/images/words/toothbrush.svg",
+   "category": "hygiene",
+   "level": 1,
+   "sk": "zubná kefka",
+   "de": "Zahnbürste",
+   "de_article": "die",
+   "en": "toothbrush"
+  },
+  {
+   "code": "soap",
+   "image": "assets/images/words/soap.svg",
+   "category": "hygiene",
+   "level": 1,
+   "sk": "mydlo",
+   "de": "Seife",
+   "de_article": "die",
+   "en": "soap"
+  },
+  {
+   "code": "bathtub",
+   "image": "assets/images/words/bathtub.svg",
+   "category": "hygiene",
+   "level": 2,
+   "sk": "vaňa",
+   "de": "Badewanne",
+   "de_article": "die",
+   "en": "bathtub"
+  },
+  {
+   "code": "shower",
+   "image": "assets/images/words/shower.svg",
+   "category": "hygiene",
+   "level": 2,
+   "sk": "sprcha",
+   "de": "Dusche",
+   "de_article": "die",
+   "en": "shower"
+  },
+  {
+   "code": "toilet",
+   "image": "assets/images/words/toilet.svg",
+   "category": "hygiene",
+   "level": 2,
+   "sk": "záchod",
+   "de": "Toilette",
+   "de_article": "die",
+   "en": "toilet"
+  },
+  {
+   "code": "sponge",
+   "image": "assets/images/words/sponge.svg",
+   "category": "hygiene",
+   "level": 3,
+   "sk": "špongia",
+   "de": "Schwamm",
+   "de_article": "der",
+   "en": "sponge"
+  },
+  {
+   "code": "alarm",
+   "image": "assets/images/words/alarm.svg",
+   "category": "routine",
+   "level": 2,
+   "sk": "budík",
+   "de": "Wecker",
+   "de_article": "der",
+   "en": "alarm clock"
+  },
+  {
+   "code": "sleeping",
+   "image": "assets/images/words/sleeping.svg",
+   "category": "routine",
+   "level": 2,
+   "sk": "spánok",
+   "de": "Schlaf",
+   "de_article": "der",
+   "en": "sleep"
+  },
+  {
+   "code": "breakfast",
+   "image": "assets/images/words/breakfast.svg",
+   "category": "routine",
+   "level": 2,
+   "sk": "raňajky",
+   "de": "Frühstück",
+   "de_article": "das",
+   "en": "breakfast"
+  },
+  {
+   "code": "milk",
+   "image": "assets/images/words/milk.svg",
+   "category": "routine",
+   "level": 1,
+   "sk": "mlieko",
+   "de": "Milch",
+   "de_article": "die",
+   "en": "milk"
+  },
+  {
+   "code": "pants",
+   "image": "assets/images/words/pants.svg",
+   "category": "clothes",
+   "level": 2,
+   "sk": "nohavice",
+   "de": "Hose",
+   "de_article": "die",
+   "en": "trousers"
+  },
+  {
+   "code": "backpack",
+   "image": "assets/images/words/backpack.svg",
+   "category": "school",
+   "level": 1,
+   "sk": "školská taška",
+   "de": "Schultasche",
+   "de_article": "die",
+   "en": "school bag"
+  },
+  {
+   "code": "pencil",
+   "image": "assets/images/words/pencil.svg",
+   "category": "school",
+   "level": 1,
+   "sk": "ceruzka",
+   "de": "Bleistift",
+   "de_article": "der",
+   "en": "pencil"
+  },
+  {
+   "code": "crayon",
+   "image": "assets/images/words/crayon.svg",
+   "category": "school",
+   "level": 2,
+   "sk": "voskovka",
+   "de": "Wachsmalkreide",
+   "de_article": "die",
+   "en": "crayon"
+  },
+  {
+   "code": "scissors",
+   "image": "assets/images/words/scissors.svg",
+   "category": "school",
+   "level": 1,
+   "sk": "nožnice",
+   "de": "Schere",
+   "de_article": "die",
+   "en": "scissors"
+  },
+  {
+   "code": "ruler",
+   "image": "assets/images/words/ruler.svg",
+   "category": "school",
+   "level": 2,
+   "sk": "pravítko",
+   "de": "Lineal",
+   "de_article": "das",
+   "en": "ruler"
+  },
+  {
+   "code": "book",
+   "image": "assets/images/words/book.svg",
+   "category": "school",
+   "level": 1,
+   "sk": "kniha",
+   "de": "Buch",
+   "de_article": "das",
+   "en": "book"
+  },
+  {
+   "code": "notebook",
+   "image": "assets/images/words/notebook.svg",
+   "category": "school",
+   "level": 2,
+   "sk": "zošit",
+   "de": "Heft",
+   "de_article": "das",
+   "en": "exercise book"
+  },
+  {
+   "code": "brush",
+   "image": "assets/images/words/brush.svg",
+   "category": "school",
+   "level": 3,
+   "sk": "štetec",
+   "de": "Pinsel",
+   "de_article": "der",
+   "en": "paintbrush"
+  },
+  {
+   "code": "llama",
+   "image": "assets/images/words/llama.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "lama",
+   "de": "Lama",
+   "de_article": "das",
+   "en": "llama"
+  },
+  {
+   "code": "bear",
+   "image": "assets/images/words/bear.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "medveď",
+   "de": "Bär",
+   "de_article": "der",
+   "en": "bear"
+  },
+  {
+   "code": "owl",
+   "image": "assets/images/words/owl.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "sova",
+   "de": "Eule",
+   "de_article": "die",
+   "en": "owl"
+  },
+  {
+   "code": "mom",
+   "image": "assets/images/words/mom.svg",
+   "category": "family",
+   "level": 1,
+   "sk": "mama",
+   "de": "Mama",
+   "de_article": "die",
+   "en": "mum"
+  },
+  {
+   "code": "dad",
+   "image": "assets/images/words/dad.svg",
+   "category": "family",
+   "level": 1,
+   "sk": "otec",
+   "de": "Papa",
+   "de_article": "der",
+   "en": "dad"
+  },
+  {
+   "code": "baby",
+   "image": "assets/images/words/baby.svg",
+   "category": "family",
+   "level": 1,
+   "sk": "bábätko",
+   "de": "Baby",
+   "de_article": "das",
+   "en": "baby"
+  },
+  {
+   "code": "grandma",
+   "image": "assets/images/words/grandma.svg",
+   "category": "family",
+   "level": 2,
+   "sk": "babka",
+   "de": "Oma",
+   "de_article": "die",
+   "en": "grandma"
+  },
+  {
+   "code": "grandpa",
+   "image": "assets/images/words/grandpa.svg",
+   "category": "family",
+   "level": 2,
+   "sk": "dedko",
+   "de": "Opa",
+   "de_article": "der",
+   "en": "grandpa"
+  },
+  {
+   "code": "lemon",
+   "image": "assets/images/words/lemon.svg",
+   "category": "fruit",
+   "level": 2,
+   "sk": "citrón",
+   "de": "Zitrone",
+   "de_article": "die",
+   "en": "lemon"
+  },
+  {
+   "code": "bee",
+   "image": "assets/images/words/bee.svg",
+   "category": "animal",
+   "level": 2,
+   "sk": "včela",
+   "de": "Biene",
+   "de_article": "die",
+   "en": "bee"
+  },
+  {
+   "code": "butterfly",
+   "image": "assets/images/words/butterfly.svg",
+   "category": "animal",
+   "level": 1,
+   "sk": "motýľ",
+   "de": "Schmetterling",
+   "de_article": "der",
+   "en": "butterfly"
+  }
+ ]
+}
