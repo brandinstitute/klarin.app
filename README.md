@@ -8,7 +8,7 @@
   <a href="#slovensky">Slovensky</a> · <a href="#deutsch">Deutsch</a> · <a href="#english">English</a>
   <br><br>
   <a href="LICENSE.md"><img alt="Licencia CC BY-SA 4.0" src="https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-5B4BDB"></a>
-  <a href="https://github.com/brandinstitute/klarin.app/issues?q=is%3Aopen+label%3A%22dobr%C3%BD+prv%C3%BD+krok%22"><img alt="Dobrý prvý krok" src="https://img.shields.io/badge/za%C4%8Dni-dobr%C3%BD%20prv%C3%BD%20krok-E8590C"></a>
+  <a href="https://github.com/brandinstitute/klarin.app/issues?q=is%3Aopen+label%3A%22good+first+issue%22"><img alt="Dobrý prvý krok" src="https://img.shields.io/badge/za%C4%8Dni-dobr%C3%BD%20prv%C3%BD%20krok-E8590C"></a>
   <a href="https://klarin.app"><img alt="klarin.app" src="https://img.shields.io/badge/web-klarin.app-1E1B4B"></a>
 </p>
 
@@ -40,7 +40,7 @@ záleží na dobrom učení. **Programovať nemusíte.** Väčšinu zmien urobí
 | ktokoľvek | navrhnúť nové slovo (s prekladom do troch jazykov) | [Nové slovo](../../issues/new?template=nove_slovo.yml) |
 | skúsenejší na GitHube | opraviť text priamo cez Pull Request | [CONTRIBUTING.md](CONTRIBUTING.md) |
 
-Úlohy označené **„dobrý prvý krok“** sú malé a vhodné na začiatok.
+Úlohy so štítkom **„good first issue“** sú malé a vhodné na začiatok, so štítkom **„help wanted“** hľadáme pomoc.
 Čo by sme radi zlepšili, nájdete v **[ROADMAP.md](ROADMAP.md)**.
 
 ### Čo je kde
