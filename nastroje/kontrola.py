@@ -43,6 +43,8 @@ if all(isinstance(t, dict) for t in texts.values()):
     for l in LANGS:
         for other in LANGS:
             for k in sorted(keys[other] - keys[l]):
+                if k.startswith('phon.'):
+                    continue  # hlásky písmen má každý jazyk vlastné / letter sounds are language-specific
                 err(f'obsah/texty/{l}.json', f'chýba kľúč / missing key "{k}" (je v {other}.json)')
     for k in sorted(keys['sk'] & keys['de'] & keys['en']):
         vals = {l: texts[l][k] for l in LANGS}

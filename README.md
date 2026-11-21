@@ -62,7 +62,7 @@ záleží na dobrom učení. **Programovať nemusíte.** Väčšinu zmien urobí
 4. Po schválení zmenu zlúčime a dostane sa do najbližšej verzie appky. Prispievateľov uvádzame v poďakovaní.
 
 **Licencia obsahu:** [CC BY-SA 4.0](LICENSE.md). Kód appky nie je súčasťou tohto repozitára.
-**Kontakt:** info@brandinstitute.sk · **Prevádzkovateľ:** Brand Institute, o. z. · **Web:** https://klarin.app
+**Kontakt:** info@klarin.app · **Prevádzkovateľ:** Brand Institute, o. z. · **Web:** https://klarin.app
 
 ---
 
@@ -87,7 +87,7 @@ Schreibvorlagen. Wir freuen uns über Mithilfe von Lehrkräften, Eltern, Überse
 Die deutschen Texte stehen in `obsah/texty/de.json`, der Wortschatz in `obsah/slovna_zasoba.json`.
 Vorschläge auf Deutsch sind herzlich willkommen. Was wir verbessern möchten, steht in [ROADMAP.md](ROADMAP.md).
 
-**Lizenz:** [CC BY-SA 4.0](LICENSE.md) · **Kontakt:** info@brandinstitute.sk · https://klarin.app
+**Lizenz:** [CC BY-SA 4.0](LICENSE.md) · **Kontakt:** info@klarin.app · https://klarin.app
 
 ---
 
@@ -113,4 +113,4 @@ English texts are in `obsah/texty/en.json`, vocabulary in `obsah/slovna_zasoba.j
 Issues and pull requests in English are welcome. See [ROADMAP.md](ROADMAP.md) for what we'd like to improve
 and [CONTRIBUTING.md](CONTRIBUTING.md) for the step-by-step process.
 
-**License:** [CC BY-SA 4.0](LICENSE.md) · **Contact:** info@brandinstitute.sk · https://klarin.app
+**License:** [CC BY-SA 4.0](LICENSE.md) · **Contact:** info@klarin.app · https://klarin.app

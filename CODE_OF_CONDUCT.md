@@ -11,15 +11,15 @@ KLARIN robíme pre deti, a preto sa aj medzi sebou správame tak, ako by sme chc
 **Neakceptujeme:** urážky, posmech, obťažovanie, diskrimináciu, zverejňovanie cudzích osobných údajov,
 reklamu a spam.
 
-**Nahlásenie:** info@brandinstitute.sk. Každé hlásenie posúdime dôverne. Správcovia môžu príspevok upraviť
+**Nahlásenie:** info@klarin.app. Každé hlásenie posúdime dôverne. Správcovia môžu príspevok upraviť
 alebo odstrániť a pri opakovanom porušení zablokovať účet.
 
 Tieto pravidlá vychádzajú z [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/),
 ktorý platí doplnkovo.
 
 **Deutsch:** Freundlicher, respektvoller Umgang; Kritik an Vorschlägen, nicht an Personen; keine
-personenbezogenen Daten von Kindern. Meldungen an info@brandinstitute.sk. Ergänzend gilt der
+personenbezogenen Daten von Kindern. Meldungen an info@klarin.app. Ergänzend gilt der
 Contributor Covenant 2.1.
 
 **English:** Be kind and respectful; critique ideas, not people; never post children's personal data.
-Report issues to info@brandinstitute.sk. The Contributor Covenant 2.1 applies in addition.
+Report issues to info@klarin.app. The Contributor Covenant 2.1 applies in addition.

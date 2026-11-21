@@ -235,7 +235,7 @@
    "active": true,
    "mechanic": "pick_one",
    "min_level": 1,
-   "max_level": 6,
+   "max_level": 9,
    "requires": [],
    "title": {
     "sk": "Sčítanie a odčítanie",
@@ -248,7 +248,34 @@
     "3": "+ a − do 10 s obrázkami",
     "4": "+ a − do 10 číslami",
     "5": "do 20 bez prechodu cez 10",
-    "6": "do 20 s prechodom cez 10"
+    "6": "do 20 s prechodom cez 10",
+    "7": "celé desiatky do 100",
+    "8": "do 100 bez prechodu cez desiatku",
+    "9": "do 100 s prechodom cez desiatku"
+   }
+  },
+  {
+   "code": "math.times",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [
+    "math.add_sub"
+   ],
+   "title": {
+    "sk": "Násobilka",
+    "de": "Einmaleins",
+    "en": "Times tables"
+   },
+   "levels": {
+    "1": "· 2 do 5",
+    "2": "· 10",
+    "3": "· 5",
+    "4": "· 2, 5, 10",
+    "5": "· 3 a · 4",
+    "6": "· 6 až · 9"
    }
   },
   {
@@ -257,7 +284,7 @@
    "active": true,
    "mechanic": "pick_one",
    "min_level": 1,
-   "max_level": 6,
+   "max_level": 9,
    "requires": [],
    "title": {
     "sk": "Číselná cesta",
@@ -270,7 +297,10 @@
     "3": "okno 6 čísel do 20",
     "4": "dve chýbajúce",
     "5": "odzadu",
-    "6": "po 2 a po 10 do 100"
+    "6": "po 2 a po 10 do 100",
+    "7": "do 100 po jednej",
+    "8": "po 5 a po 10 od iného čísla",
+    "9": "odzadu po 2, 5, 10"
    }
   },
   {
@@ -279,7 +309,7 @@
    "active": true,
    "mechanic": "pick_one",
    "min_level": 1,
-   "max_level": 6,
+   "max_level": 9,
    "requires": [],
    "title": {
     "sk": "Bludisko",
@@ -292,7 +322,10 @@
     "3": "3 cesty, viac ohybov",
     "4": "4 cesty",
     "5": "4 cesty, viac ohybov",
-    "6": "5 ciest"
+    "6": "5 ciest",
+    "7": "5 ciest, 4 ohyby",
+    "8": "6 ciest, 4 ohyby",
+    "9": "6 ciest, 5 ohybov"
    }
   },
   {
@@ -301,7 +334,7 @@
    "active": true,
    "mechanic": "pick_one",
    "min_level": 1,
-   "max_level": 6,
+   "max_level": 9,
    "requires": [],
    "title": {
     "sk": "Šípky",
@@ -314,7 +347,10 @@
     "3": "4×4, 3 kroky",
     "4": "4×4, 4 kroky",
     "5": "5×5, 5 krokov",
-    "6": "5×5, 6 krokov"
+    "6": "5×5, 6 krokov",
+    "7": "sieť 6×6, 6 krokov",
+    "8": "6×6, 7 krokov, 4 možnosti",
+    "9": "6×6, 8 krokov, 4 možnosti"
    }
   },
   {
@@ -499,7 +535,7 @@
    "active": true,
    "mechanic": "pick_one",
    "min_level": 1,
-   "max_level": 6,
+   "max_level": 8,
    "requires": [],
    "title": {
     "sk": "Viac a menej",
@@ -512,7 +548,9 @@
     "3": "rozdiel 1, aj menej",
     "4": "3 skupiny do 10",
     "5": "3 skupiny, rôzne predmety",
-    "6": "väčšie / menšie číslo do 20"
+    "6": "väčšie / menšie číslo do 20",
+    "7": "3 čísla do 100, prehodené cifry",
+    "8": "4 čísla do 100, rovnaké desiatky"
    }
   },
   {
@@ -731,17 +769,17 @@
    "max_level": 6,
    "requires": [],
    "title": {
-    "sk": "Koľko písmen má slovo",
-    "de": "Wie viele Buchstaben?",
+    "sk": "Hláskovanie",
+    "de": "Laute klopfen",
     "en": "How many letters?"
    },
    "levels": {
-    "1": "do 4 písmen",
-    "2": "do 4 písmen",
-    "3": "do 6 písmen",
-    "4": "do 6 písmen",
-    "5": "do 8 písmen",
-    "6": "do 8 písmen"
+    "1": "do 3 hlások (EN: do 4 písmen)",
+    "2": "do 3 hlások (EN: do 4 písmen)",
+    "3": "do 4 hlások (EN: do 6 písmen)",
+    "4": "do 4 hlások (EN: do 6 písmen)",
+    "5": "do 6 hlások (EN: do 8 písmen)",
+    "6": "do 6 hlások (EN: do 8 písmen)"
    }
   },
   {
@@ -1018,6 +1056,310 @@
    "langs": [
     "de"
    ]
+  },
+  {
+   "code": "logic.shadow_match",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Nájdi tieň",
+    "de": "Finde den Schatten",
+    "en": "Find the shadow"
+   },
+   "levels": {
+    "1": "obrázok → 3 tiene z rôznych skupín",
+    "2": "3 tiene z jednej skupiny",
+    "3": "4 tiene z jednej skupiny",
+    "4": "tieň → 4 obrázky",
+    "5": "5 tieňov z jednej skupiny",
+    "6": "tieň → 6 obrázkov"
+   }
+  },
+  {
+   "code": "math.make_ten",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Koľko ešte treba?",
+    "de": "Wie viele fehlen?",
+    "en": "How many more?"
+   },
+   "levels": {
+    "1": "doplň do 3–5, vidno prázdne miesta",
+    "2": "doplň do 5, vidno prázdne miesta",
+    "3": "doplň do 6–10, vidno prázdne miesta",
+    "4": "doplň do 5 bez prázdnych miest",
+    "5": "doplň do 10 bez prázdnych miest",
+    "6": "doplň do 10, 4 možnosti"
+   }
+  },
+  {
+   "code": "logic.missing",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 9,
+   "requires": [],
+   "title": {
+    "sk": "Čo zmizlo?",
+    "de": "Was fehlt?",
+    "en": "What is missing?"
+   },
+   "levels": {
+    "1": "3 obrázky",
+    "2": "4 obrázky",
+    "3": "5 obrázkov",
+    "4": "4, dole premiešané",
+    "5": "5, premiešané",
+    "6": "6, premiešané, 4 možnosti",
+    "7": "7 premiešaných",
+    "8": "8 premiešaných",
+    "9": "8 podobných z jednej skupiny"
+   }
+  },
+  {
+   "code": "space.ordinal",
+   "island": "space",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Prvý, posledný",
+    "de": "Erster, letzter",
+    "en": "First, last"
+   },
+   "levels": {
+    "1": "prvý/posledný z 3",
+    "2": "prvý/posledný zo 4",
+    "3": "v strede",
+    "4": "druhý/tretí z 5",
+    "5": "predposledný",
+    "6": "tretí sprava"
+   }
+  },
+  {
+   "code": "logic.sort",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Kam to patrí?",
+    "de": "Wohin gehört das?",
+    "en": "Where does it go?"
+   },
+   "levels": {
+    "1": "3 v skupine, 3 možnosti",
+    "2": "2 v skupine",
+    "3": "4 možnosti",
+    "4": "podobné skupiny",
+    "5": "2 v skupine, podobné",
+    "6": "5 možností, podobné"
+   }
+  },
+  {
+   "code": "logic.pairs",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 4,
+   "requires": [],
+   "title": {
+    "sk": "Čo patrí k sebe?",
+    "de": "Was gehört zusammen?",
+    "en": "What goes together?"
+   },
+   "levels": {
+    "1": "3 možnosti",
+    "2": "3 možnosti",
+    "3": "4 možnosti",
+    "4": "4 možnosti, aj z tej istej skupiny"
+   }
+  },
+  {
+   "code": "read.sound_position",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 4,
+   "requires": [],
+   "title": {
+    "sk": "Kde je hláska?",
+    "de": "Wo ist der Laut?",
+    "en": "Where is the sound?"
+   },
+   "levels": {
+    "1": "začiatok/koniec, 4 hlásky",
+    "2": "začiatok/koniec",
+    "3": "aj v strede",
+    "4": "aj v strede, všetky hlásky"
+   }
+  },
+  {
+   "code": "logic.grid_copy",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Rovnaká mriežka",
+    "de": "Gleiches Gitter",
+    "en": "Same grid"
+   },
+   "levels": {
+    "1": "2×2, 1 tvar",
+    "2": "2×2, 2 tvary",
+    "3": "3×3, 2 tvary",
+    "4": "3×3, 3 tvary",
+    "5": "3×3, 4 tvary",
+    "6": "aj len farba"
+   }
+  },
+  {
+   "code": "logic.difference",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Nájdi rozdiel",
+    "de": "Finde den Unterschied",
+    "en": "Spot the difference"
+   },
+   "levels": {
+    "1": "3 obrázky",
+    "2": "4 obrázky",
+    "3": "4, podobný obrázok",
+    "4": "5 obrázkov",
+    "5": "5, podobný",
+    "6": "6, podobný"
+   }
+  },
+  {
+   "code": "speak.feelings",
+   "island": "speak",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 4,
+   "requires": [],
+   "title": {
+    "sk": "Ako sa cíti?",
+    "de": "Wie fühlt es sich?",
+    "en": "How do they feel?"
+   },
+   "levels": {
+    "1": "3 tváričky",
+    "2": "4 tváričky",
+    "3": "5 tváričiek",
+    "4": "situácia → tvár"
+   }
+  },
+  {
+   "code": "read.abc",
+   "island": "read",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Abeceda",
+    "de": "Alphabet",
+    "en": "Alphabet"
+   },
+   "levels": {
+    "1": "ďalšie, začiatok abecedy",
+    "2": "ďalšie, 2/3 abecedy",
+    "3": "chýbajúce",
+    "4": "ďalšie, celá",
+    "5": "ktoré je pred",
+    "6": "chýbajúce, 4 možnosti"
+   }
+  },
+  {
+   "code": "math.money",
+   "island": "numbers",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 5,
+   "requires": [],
+   "title": {
+    "sk": "Peniaze",
+    "de": "Geld",
+    "en": "Money"
+   },
+   "levels": {
+    "1": "1–3 mince",
+    "2": "1–5 mincí",
+    "3": "mince 1 a 2 do 6",
+    "4": "mince 1 a 2 do 10",
+    "5": "kde je viac"
+   }
+  },
+  {
+   "code": "logic.size",
+   "island": "logic",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Veľký a malý",
+    "de": "Groß und klein",
+    "en": "Big and small"
+   },
+   "levels": {
+    "1": "veľký z 2",
+    "2": "veľký alebo malý z 2",
+    "3": "najväčší/najmenší z 3 rovnakých",
+    "4": "najväčší/najmenší z 3 rôznych",
+    "5": "najväčší/najmenší zo 4",
+    "6": "stredný z 3"
+   }
+  },
+  {
+   "code": "vocab.shapes",
+   "island": "words",
+   "active": true,
+   "mechanic": "pick_one",
+   "min_level": 1,
+   "max_level": 6,
+   "requires": [],
+   "title": {
+    "sk": "Tvary a farby",
+    "de": "Formen und Farben",
+    "en": "Shapes and colours"
+   },
+   "levels": {
+    "1": "kruh/štvorec",
+    "2": "+ trojuholník",
+    "3": "4 z 5 tvarov",
+    "4": "tvar + farba, 3 možnosti",
+    "5": "tvar + farba, 4 možnosti",
+    "6": "tvar + farba, 6 možností"
+   }
   }
  ]
 }
